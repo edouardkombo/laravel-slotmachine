@@ -11,6 +11,10 @@
       
         composer install
         
+  - Copy games.json to storage folder
+      
+        mv .games.json.sample storage/app/storage/games.json
+        
   - Run tests to ensure that everything is working
       
         ./vendor/bin/phpunit
@@ -18,6 +22,7 @@
   - Run the command
       
         php artisan slot-machine:spin
+        
         
 
 #Introduction
